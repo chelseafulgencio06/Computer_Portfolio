@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Computer Portfolio Project</title>
+    <style>
+        body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    background-color: #ADD8E6
+}
+
+header {
+    background-color: #ffb7ce;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+     text-shadow: 1px 1px 0 #ff474c, 
+         -1px -1px 0 #ff474c,
+         1px -1px 0 #ff474c,
+         -1px 1px 0 #ff474c;
+}
+
+h2 {
+    color: #af69ed;
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+    text-shadow: 1px 1px 0 #fff, 
+         -1px -1px 0 #fff,
+         1px -1px 0 #fff,
+         -1px 1px 0 #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.info {
+    width: 90%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-item {
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-item a {
+    display: block;
+}
+
+.image-item a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.image-item p {
+    margin-top: 10px;
+    color: #495057;
+    font-size: 0.9rem;
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Portfolio Project</h1>
+        <h2>Chelsea's Project</h2>
+    </header>
+    <div class="container">
+        <div class="info">
+            <h3>Project Information</h3>
+            <p>In this portfolio, it showcases 3 of my projects from the subjects :  Filipino, Science, and Values. This projects have helped me to test my creativity by expressing my ideas and findings.  
+                .</p>
+            <p>In this science project, I experimented and observed how moisture and soil composition can affect the growth of a mung bean. The process required careful observation while the jar of mung beans are placed in a dark area that no sunlight can reach. It allows me to draw conclusions about the optimal conditions for plant development. 
+            </p>
+            <p>This Filipino project involves making a tagalog poem that talks about justice for people. This project helped me to appreciate the art of poetry and helped me deepen my appreciation for my own language, and the power of poetry to convey complex emotions and stories. 
+            </p>
+            <p>Lastly, My Values project. This showcases the process of making a habit formation. By creating a detailed list of habits that I want to do, I have been challenged for a 21-day journey of self improvement and discipline. This project helped me to be more consistent of the things I want to achieve and the importance of self reflection. 
+                .</p>
+        </div>
+        <div class="images">
+            <div class="image-item">
+                <a href="#">
+                    <img src="https://i.imgur.com/rr2syt6.jpeg" alt="Science Project" />
+                </a>
+                <p>Science Project: Observing plant growth under different conditions.</p>
+            </div>
+            <div class="image-item">
+                <a href="#">
+                    <img src="https://i.imgur.com/V6XuCGc.jpeg" alt="Filipino Project" />
+                </a>
+                <p>Filipino Project: A Tagalog poem exploring cultural themes.</p>
+            </div>
+            <div class="image-item">
+                <a href="#">
+                    <img src="https://i.imgur.com/qciKODR.jpeg" alt="Values Project" />
+                </a>
+                <p>Values Project: Tracking habits over a 21-day journey.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
